@@ -45,14 +45,13 @@ async function init(){
 // Async / await / fetch
 async function getUsers(){
     const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
-
     const data = await res.json();
     console.log(data);
 }
 getUsers();
 
 
-// =========================================
+// ===========================================================
 
 
 //promise all
